@@ -1,0 +1,22 @@
+{
+  "name": "cover",
+  "version": "1.0.0",
+  "description": "Cover is a framework experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonsavenije/Cover.git"
+  },
+  "author": "Ton Savenije",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonsavenije/Cover/issues"
+  },
+  "homepage": "https://github.com/tonsavenije/Cover#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
