@@ -1,10 +1,13 @@
 // style.scss
 
+// Include partials: base reset
+@import "partials/base/reset";
+@import "partials/base/normalize";
+
 // Include partials: global
+@import "global/variables";
 
 // Include partials: lay-outs
-
-// Include partials: base
 
 // Include partials: components
 @import "partials/components/buttons";
