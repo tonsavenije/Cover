@@ -1,4 +1,23 @@
 // partials/components/buttons
-@import "buttons/extends";
-@import "buttons/mixins";
 @import "buttons/variables";
+@import "buttons/mixins";
+@import "buttons/extends";
+
+// in extends file .default-button {...}
+
+.pushbutton {
+  @extend .default-button;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 400;
+  padding-left: $global-padding * 2;
+  padding-right: $global-padding * 2;
+  background: linear-gradient($color-primary-darken, $color-primary);
+  color:$color-label-white;
+  @include button-box-shadow(0, .1em, .4em, $color-shadow);
+
+  &:hover {
+    background: linear-gradient($color-primary, $color-primary-darken);
+    @include button-box-shadow-reset();
+  }
+}

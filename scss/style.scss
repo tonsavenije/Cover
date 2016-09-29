@@ -5,9 +5,19 @@
 @import "partials/base/normalize";
 
 // Include partials: global
-@import "global/variables";
+@import "partials/global/variables";
+@import "partials/global/mixins";
+
+html, body {
+  height:100%;
+  overflow:hidden;
+}
+body {
+  font-size: $global-body-fontsize;
+}
 
 // Include partials: lay-outs
+@import "partials/global/grid";
 
 // Include partials: components
 @import "partials/components/buttons";

@@ -1,0 +1,9 @@
+// button extends
+.default-button {
+  margin:$global-margin;
+  border: $buttons-border;
+  padding: $global-padding;
+  font-size:$buttons-font-size;
+  border-radius:$buttons-border-radius;
+  min-width:$buttons-min-width;
+}

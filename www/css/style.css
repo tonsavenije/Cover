@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; }
+
+.default-button, .pushbutton {
+  margin: 1em;
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 0.5em;
+  min-width: 128px; }
+
+.pushbutton {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 400;
+  padding-left: 2em;
+  padding-right: 2em;
+  background: linear-gradient(#FE697A, #FD4D62);
+  color: #FFF;
+  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.4); }
+  .pushbutton:hover {
+    background: linear-gradient(#FD4D62, #FE697A);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
